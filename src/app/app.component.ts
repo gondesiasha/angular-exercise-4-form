@@ -7,7 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Exercise4';
-  
+  data:any={};
+  onSubmit(){
+    alert(JSON.stringify(this.data))
+  }
   
 
 
